@@ -91,6 +91,9 @@ chmod -R g+ws /var/www/MISP/app/files/scripts/tmp
 
 6/ Create a database and user
 -----------------------------
+# Install MYSQL-SERVER if mysql is not installed in your computer
+apt-get isnstall mysql-server
+
 # Enter the mysql shell
 mysql -u root -p
 
